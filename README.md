@@ -2,6 +2,32 @@
 
 <br>
 
+Denne guiden viser hvordan du setter opp Visual Studio Code på Ubuntu steg-for-steg. Du lærer å oppdatere systemet via terminalen, laste ned og installere nødvendige filer, og håndtere vanlige feil underveis. Instruksjonene inkluderer bruk av kommandoer som `sudo apt update` og `sudo apt install`, navigering i filsystemet, og grunnleggende feilsøking. Dette gir deg praktisk erfaring med terminalbruk og programvareinstallasjon på Linux, noe som er nyttig for videre IT-arbeid.
+<br>
+<br>
+
+## Fint å vite før du starter!
+
+I denne tutorialen når vi begynner å laste ned filen, er det mulig at denne filen vi lastet ned ikke funker (skjer hos noen), hvis filen ikke funker kan du trykke inn på "filer appen":
+
+![alt text](bob.png)
+
+Trykk deretter inn på "Downloads" på siden av skjermen, og så kan du slette filen du nettopp lastet ned>
+
+![alt text](image-8.png)
+
+
+<br>
+Når det er gjort, kan vi gå tilbake til VsCode download siden, og laste ned ".deb-arm64" istedet:
+
+![alt text](<image (3)-1.png>)
+
+Nå kan du gå tilbake til Steg 3 og prøve på nytt!
+
+<hr>
+<br>
+
+
 ## Steg 1⬇️
 ![alt text](image-1.png)
 Dette er hvordan skjermen din kommer til å se ut når du har satt opp Ubuntuen din.
@@ -60,12 +86,13 @@ Og deretter, skriv inn kommandoen:
 ```bash
 Sudo apt install ./c
 ```
-Så kan du trykke på "Tab" så fyller den ut filnavnet av seg selv.
+**Så kan du trykke på "Tab" så fyller den ut filnavnet av seg selv.**
+
 Kjør kommandoen og så skal du få opp noe som dette ettervært:
 ![alt text](<image (3)-1.jpg>)
 
 <br>
-Hvis du får opp en error som ser slik ut, kan du gå til steget "!!!"
+Hvis du får opp en error istedet, som ser slik ut, kan du gå tilbake til "Fint å vite!" som ligger på toppen. 
 
 ![alt text](image-10.png)
 
@@ -75,21 +102,4 @@ Hvis det ikke kom opp noen errors, kan du skrive inn kommandoen:
 code .
 ```
 
-Hvis VsCode åpnes, har du fått det til!!
-
-## !!!
-I denne tutorialen når vi begynner å laste ned filen, er det mulig at denne filen vi lastet ned ikke funker (skjer hos noen), hvis filen ikke funker kan du trykke inn på "filer appen":
-
-![alt text](image-7.png)
-
-Trykk deretter inn på "Downloads" på siden av skjermen, og så kan du slette filen du nettopp lastet ned>
-
-![alt text](image-8.png)
-
-
-<br>
-Når det er gjort, kan vi gå tilbake til VsCode download siden, og laste ned ".deb-arm64" istedet:
-
-![alt text](<image (3)-1.png>)
-
-Nå kan du gå tilbake til Steg 3 og prøve på nytt!
+##  **Hvis VsCode åpnes, har du fått det til!!**
