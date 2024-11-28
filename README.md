@@ -46,8 +46,39 @@ Trykk på ".deb" knappen under pingvinen for å laste ned VsCode filen for Ubunt
 
 ![alt text](image-6.png)
 
+<br>
+
+## Steg 3⬇️
+Nå som du har lastet ned VsCode filen, må vi få til å laste ned VsCode i terminalen med hjelp av denne filen.
+
+Gå tilbake til Terminalen og skriv inn kommandoen:
+```bash
+cd Downloads/
+```
+
+Og deretter, skriv inn kommandoen:
+```bash
+Sudo apt install ./c
+```
+Så kan du trykke på "Tab" så fyller den ut filnavnet av seg selv.
+Kjør kommandoen og så skal du få opp noe som dette ettervært:
+![alt text](<image (3)-1.jpg>)
+
+<br>
+Hvis du får opp en error som ser slik ut, kan du gå til steget "!!!"
+
+![alt text](image-10.png)
+
+Hvis det ikke kom opp noen errors, kan du skrive inn kommandoen:
+
+```bash
+code .
+```
+
+Hvis VsCode åpnes, har du fått det til!!
+
 ## !!!
-Senere i denne tutorialen når vi begynner å laste ned filen, er det mulig at denne filen vi lastet ned ikke funker (skjer hos noen), hvis filen ikke funker kan du trykke inn på "filer appen":
+I denne tutorialen når vi begynner å laste ned filen, er det mulig at denne filen vi lastet ned ikke funker (skjer hos noen), hvis filen ikke funker kan du trykke inn på "filer appen":
 
 ![alt text](image-7.png)
 
@@ -61,8 +92,4 @@ Når det er gjort, kan vi gå tilbake til VsCode download siden, og laste ned ".
 
 ![alt text](<image (3)-1.png>)
 
-Nå kan du fortsette til Steg 3!
-<br>
-
-## Steg 3⬇️
-Nå som du har lastet ned VsCode filen, må vi få til å laste ned VsCode i terminalen med hjelp av denne filen.
+Nå kan du gå tilbake til Steg 3 og prøve på nytt!
