@@ -71,7 +71,7 @@ Trykk på den øverste linken som kommer opp, da skal et vindu som dette komme o
 
 Trykk på ".deb" knappen under pingvinen for å laste ned VsCode filen for Ubuntu:
 
-![alt text](/Media/image-6.png)
+![alt text](../Flask-backend-Gunicorn-/Media/image-6.png)
 
 <br>
 
