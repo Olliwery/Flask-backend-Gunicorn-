@@ -96,6 +96,9 @@ Kjør kommandoen og så skal du få opp noe som dette ettervært:
 <br>
 Hvis du får opp en error istedet, som ser slik ut, kan du gå tilbake til "Fint å vite!" som ligger på toppen. 
 
+<br>
+<br>
+
 ![alt text](../Flask-backend-Gunicorn-//Media/image-10.png)
 
 Hvis det ikke kom opp noen errors, kan du skrive inn kommandoen:
